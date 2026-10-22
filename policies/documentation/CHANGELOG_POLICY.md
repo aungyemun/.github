@@ -72,7 +72,8 @@ history unchanged.
 Prefix entries with the platform (`**Windows:** ...`, `**Linux:** ...`) when availability
 or behaviour differs; do not repeat platforms for general changes. Never claim platforms,
 installers or packages that were not verified; separate "builds from source" from
-"packages published".
+"packages published". With independent platform version histories, state the platform
+package version with platform-specific entries ([VERSION_MANAGEMENT](../VERSION_MANAGEMENT.md)).
 
 ## 7. Breaking changes
 

@@ -6,7 +6,7 @@ account's public repositories, written for human contributors and AI coding assi
 | Start here | Purpose |
 | --- | --- |
 | [DEVELOPMENT_POLICY.md](DEVELOPMENT_POLICY.md) | Main development policy and topic index |
-| [policies/](policies/) | Detailed engineering topics (testing, security, Git, releases, ...) |
+| [policies/](policies/POLICY_DIRECTORY.md) | Detailed engineering topics, listed in the policy directory |
 | [policies/documentation/](policies/documentation/DOCUMENTATION_INDEX.md) | Documentation and professional writing standards |
 | [project-profiles/](project-profiles/README.md) | Optional guidance for specific public projects |
 | [gateway/](gateway/POLICY.md) | Template of the optional `.ai-policy/` pointer folder |
