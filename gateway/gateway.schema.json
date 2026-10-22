@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "universal-ai-policy-gateway-v1",
+  "title": "Universal AI policy gateway (schema 1)",
+  "description": "Keys allowed in .ai-policy/POLICY.md front matter or .ai-policy/policy.json. The gateway never declares visibility and never contains policy text, credentials, local paths or private repository names.",
+  "type": "object",
+  "required": ["gateway", "gateway_schema"],
+  "additionalProperties": false,
+  "properties": {
+    "gateway": {"const": "universal-ai-policy"},
+    "gateway_schema": {"enum": [1, "1"]},
+    "public_policy": {"type": "string", "pattern": "^https://"},
+    "private_policy": {"const": "configured-locally"},
+    "project_id": {"type": "string", "pattern": "^([a-z0-9][a-z0-9._-]{0,63})?$"},
+    "policy_major": {"type": ["integer", "string"], "pattern": "^\\d*$"}
+  }
+}
