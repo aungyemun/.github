@@ -85,7 +85,8 @@ prototypes.
 ## 5. Logos, icons and badges
 
 - **Logos:** only the official branding from original assets, readable in light and dark
-  mode, moderately sized; no new or unlicensed logos without the maintainer's decision.
+  mode, moderately sized; no new or unlicensed logos without the maintainer's decision
+  (creating and adapting logos: [LOGO_AND_BRANDING](../LOGO_AND_BRANDING.md)).
 - **Icons:** only where they aid navigation or comprehension, with text labels, one
   consistent licensed style, no emoji walls.
 - **Badges:** optional and few (release, CI, licence, package version); each shows real

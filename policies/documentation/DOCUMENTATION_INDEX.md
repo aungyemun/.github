@@ -12,11 +12,11 @@ Read this before creating, reviewing or updating documentation, then the
 | `SECURITY.md` | [SECURITY_POLICY](SECURITY_POLICY.md) | security reporting documentation |
 | `CHANGELOG.md` | [CHANGELOG_POLICY](CHANGELOG_POLICY.md) | any changelog change or release preparation |
 | `INSTALLATION.md`, `BUILD.md` | [INSTALLATION_AND_BUILD_POLICY](INSTALLATION_AND_BUILD_POLICY.md) | installing or building |
-| `TESTING.md` | [TESTING_POLICY](TESTING_POLICY.md) | documenting tests and results |
+| `TESTING.md` | [TESTING_POLICY](TESTING_POLICY.md) | documenting tests and results; fixtures: [TEST_DATA_AND_FIXTURES](../TEST_DATA_AND_FIXTURES.md) |
 | `PRIVACY.md` | [PRIVACY_POLICY](PRIVACY_POLICY.md) | application data behaviour |
 | `THIRD_PARTY_NOTICES.md` | [THIRD_PARTY_NOTICES_POLICY](THIRD_PARTY_NOTICES_POLICY.md) | distributed third-party components |
-| `METHODS.md` | [METHODS_POLICY](METHODS_POLICY.md) | scientific or research software only |
-| Architecture and developer guides | [GENERAL_WRITING_POLICY](GENERAL_WRITING_POLICY.md#accuracy) | describe implemented design only; label proposals |
+| `METHODS.md`, optional `docs/SCIENTIFIC_REFERENCES.md` | [METHODS_POLICY](METHODS_POLICY.md) | scientific or research software only; provenance and citations: [SCIENTIFIC_PROVENANCE](../SCIENTIFIC_PROVENANCE.md) |
+| Architecture and developer guides | [GENERAL_WRITING_POLICY](GENERAL_WRITING_POLICY.md#accuracy) | describe implemented design and the real workflow only (debugging and diagnostic modes: [TROUBLESHOOTING](../TROUBLESHOOTING.md)); label proposals |
 
 ## Review procedure
 1. Read the relevant existing documentation; do not assume any file exists.

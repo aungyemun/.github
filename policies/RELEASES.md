@@ -4,7 +4,8 @@ Applies only to repositories with an established release or distribution process
 only for release operations. Ordinary development pushes do not require release checks.
 
 - **Version consistency** across version files, build metadata, installer scripts,
-  changelog and tag.
+  changelog and tag, within the right version domain
+  ([VERSION_MANAGEMENT](VERSION_MANAGEMENT.md)).
 - **Build verification** from a clean checkout with locked dependencies, on each
   intended platform the environment allows; record toolchain versions.
 - **Package integrity**: install, launch, core workflows and uninstall; per-user install
@@ -12,7 +13,8 @@ only for release operations. Ordinary development pushes do not require release 
   signing is used.
 - **Compatibility**: state which operating systems and versions were tested and which
   were not.
-- **Upgrade safety**: settings and user data survive upgrading from the previous release.
+- **Upgrade safety**: settings and user data survive upgrading from the previous release;
+  installer behaviour and tests follow [INSTALLER_AND_PACKAGING](INSTALLER_AND_PACKAGING.md).
 - **Artifact inspection**: list package contents; look for secrets, personal paths, test
   data, debug files and development-only material such as policy documents or an
   `.ai-policy/` folder, which must never ship. Inspect the actual artifact; formats that

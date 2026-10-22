@@ -13,7 +13,7 @@ protection, secrets or security settings.
 - Stage explicitly and review `git diff --cached` before committing.
 - One logical change per commit, with a message that explains what and why.
 - Exclude build outputs, caches, environments, IDE files, logs, large binaries and
-  personal data.
+  personal data ([REPOSITORY_HYGIENE](REPOSITORY_HYGIENE.md)).
 
 ## Commit messages
 These rules apply to every commit in every repository, whatever the tool used.

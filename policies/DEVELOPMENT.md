@@ -21,19 +21,13 @@
 - Avoid speculative abstractions.
 
 ## Troubleshooting
-1. Reproduce and capture the exact error, inputs and environment.
-2. Gather evidence (logs, configuration, recent changes, dependency versions) before
-   editing.
-3. Test one hypothesis at a time.
-4. Fix the root cause rather than masking symptoms (no blanket retries, sleeps or broad
-   exception handlers); label mitigations as such.
-5. Add a regression test that fails before and passes after the fix.
-6. Check closely related failure paths without expanding scope.
-7. Report root cause, change, tests run and results, and remaining limitations.
+See [TROUBLESHOOTING](TROUBLESHOOTING.md): reproduce, gather evidence before editing,
+test one hypothesis at a time, fix the root cause, add a regression test, and report
+what was verified.
 
 ## Performance
-Measure with representative data before optimising; never trade correctness, data
-integrity or security for speed; verify packaged builds, not only development runs.
+See [PERFORMANCE](PERFORMANCE.md): measure before optimising and never trade
+correctness, data integrity, security or scientific validity for speed.
 
 ## Reviewing generated code
 Treat earlier automated output and summaries as unverified until checked against the code

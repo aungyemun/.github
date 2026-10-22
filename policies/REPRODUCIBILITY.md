@@ -13,5 +13,5 @@ build. Application documentation does not need to mention any of this.
   absolute paths or timestamps where the toolchain allows.
 - Scientific software: version inputs and parameters, record random seeds and reference
   data versions, keep environment specifications with the code, and keep results
-  traceable to code versions.
+  traceable to code versions ([SCIENTIFIC_PROVENANCE](SCIENTIFIC_PROVENANCE.md)).
 - State explicitly when a change alters numerical results, with the reason and magnitude.
